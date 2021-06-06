@@ -1,0 +1,17 @@
+* Environment: Python>=3.5
+
+* Run: 
+	python spaceship.py
+	python spaceship.py -l [NUM] -s [CHOICE]
+
+** parameter:
+	-l: game level;
+		[NUM] could be any float number > 1e-6;
+		it is set to be 2 by default; 
+		the larger l, the more difficult
+	-s: screen size; 
+		[CHOICE] could be from ['small', 'medium', 'large']; 
+		it is set to be 'small' by default
+
+** Running example: 
+	python spaceship.py -l 5 -s medium
